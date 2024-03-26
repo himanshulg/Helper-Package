@@ -1,9 +1,10 @@
 {
-    "name": "root/my-package",
-    "autoload": {
-        "psr-4": {
-            "Root\\MyPackage\\": "src/"
-        }
-    },
-    "require": {}
+  "name": "root/my-package",
+  "description": "Helper Package for Laravel.",
+  "autoload": {
+    "psr-4": {
+      "Root\\MyPackage\\": "src/"
+    }
+  },
+  "require": {}
 }
