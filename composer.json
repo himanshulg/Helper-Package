@@ -3,7 +3,7 @@
   "description": "Helper Package for Laravel.",
   "autoload": {
     "psr-4": {
-      "Root\\MyPackage\\": "src/"
+      "MyPackage\\": "src/"
     }
   },
   "require": {}

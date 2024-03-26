@@ -6,8 +6,8 @@ use App\Http\Controllers\Controller;
 
 class HelperController extends Controller
 {
-    public function hello()
+    public function getDay()
     {
-        return "this is hello function ";
+        return currentDay();
     }
 }
